@@ -1,0 +1,17 @@
+# Jangan pernah commit .env — isinya rahasia.
+.env
+
+# File binary hasil build Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output test
+*.test
+*.out
+
+# Folder IDE
+.vscode/
+.idea/
